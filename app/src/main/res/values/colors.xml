@@ -1,6 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <color name="app_buttons_background">#FFD524</color>
+    <color name="app_buttons_background_active">#AA8800</color>
+    <color name="target_settings_layout_background">#EDEEEF</color>
+    <color name="target_settings_layout_background_active">#B0B0B0</color>
+    <color name="app_color">#00ADD0</color>
+    <color name="app_color_effect">#00CCDD</color>
+    <color name="app_color_active">#007891</color>
+    <color name="sliding_menu_color">#00ACD0</color>
+    <color name="sliding_menu_color_active">#007891</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#1b2b2f</color>
+    <color name="instruction_indecator">#FFCB39</color>
+    <color name="note_text_disabled">#333333</color>
+    <color name="empty_color">#9a9fa1</color>
+    <color name="no_data_color_temp">#B6BBBE</color>
+    <color name="rateus_text_color">#86a0a7</color>
+    <color name="vertline">#D6EDF3</color>
+    <color name="gray">#808080</color>
+    <color name="lightgray">#e7e7e7</color>
+    <color name="lightgray02">#bfbfbf</color>
+    <color name="lightgray03">#9E9E9E</color>
+    <!--<color name="lightgray_tv2">#bababa</color>-->
+    <color name="lightgray_tv2">#b5b8b7</color>
+    <color name="lightgray_tv3">#999999</color>
+    <color name="green">#22A22A</color>
+    <color name="orrange">#e33d1b</color>
+    <color name="disable_cancel">#c2d1d5</color>
+    <color name="yellow">#FCD00B</color>
+    <color name="red">#FF0000</color>
+    <color name="lightgreen_button">#6AD94C</color>
+    <color name="allowed_color">#6ada4c</color>
+    <color name="quick_color">#00A2CD</color>
+    <color name="blocked_color">#FF6464</color>
+    <color name="background_color">#E0EAEC</color>
+    <color name="geo_disable_bgcolor">#E1E9EB</color>
+    <color name="login_bg_color">#E2EAEC</color>
+    <color name="forgot_btn_color_light">#CAD8DB</color>
+    <color name="forgot_btn_color_dark">#BCE5EE</color>
+    <color name="myfamily_btn_color_light">#CAD8DC</color>
+    <color name="myfamily_btn_color_dark">#C8EBF5</color>
+    <color name="text_color">#3c3c3c</color>
+    <color name="semi_gray">#aaa9a7</color>
+    <color name="light_semi_gray">#d9d9d9</color>
+
+    <color name="saperator_color">#e2eaec</color>
+    <color name="view_saperator_color">#cdd7d9</color>
+    <color name="tv_gray_color">#7e8591</color>
+    <color name="ux_blue_text_color">#00a2cd</color>
+    <color name="ux_show_map_blue_text_color">#1c7bf2</color>
+    <color name="ux_black_text_color">#26231c</color>
+    <color name="dark_tv_gray_color">#656565</color>
+    <color name="dark_bg_gray_color">#C5D5D8</color>
+
+    <color name="file_open">#07D1AA</color>
+    <color name="file_download">#118871</color>
+    <color name="file_downloading">#26B99A</color>
+
+    <color name="facebook_color">#3b5998</color>
+    <color name="twitter_color">#4099ff</color>
+    <color name="linkedin_color">#0e76a8</color>
+
+    <color name="address_text_color">#3f3f3f</color>
+
+    <color name="sb__transparent">#00000000</color>
+    <color name="sb__button_text_color_green">#7FDA0F</color>
+
+    <color name="view_saperator">#c8c7cc</color>
+    <color name="child_unselected_color">#666666</color>
+    <color name="licence_code_color">#949494</color>
+    <color name="dashboard_header_color">#f97e12</color>
+
+    <color name="raing_bar_color">#FFB002</color>
+
+    <!--SeekBar-->
+    <color name="seekbar_red_color">#FF0000</color>
+    <color name="seekbar_green_color">#14d659</color>
+    <color name="seekbar_yellow_color">#ffc000</color>
+
+
+    <color name="more_background_color">#e2e9eb</color>
+    <color name="expandview_bg_color">#EFEFEF</color>
+    <color name="expandsubmenu_line_color">#c8c7cc</color>
+    <color name="main_more_bg_color">#e1e9eb</color>
+
+
+    <color name="text_unselect_tabview_color">#cbe6f1</color>
+
+    <color name="button_disable_color">#cad8dc</color>
+    <color name="more_semi_gray">#F5F5F5</color>
+    <color name="more_select_gray">#c8c7cc</color>
+    <color name="more_circle_gray">#686671</color>
+    <color name="scedule_color">#4268f7</color>
+    <color name="status_color">#85a0a7</color>
+    <color name="dayActive_color">#EDF0F5</color>
+    <color name="text_black_color">#282828</color>
+    <color name="text_separator_color">#e9e9e9</color>
+    <color name="day_selected_color">#01A0CC</color>
+    <color name="delete_btn_color">#A8BABE</color>
+
 </resources>

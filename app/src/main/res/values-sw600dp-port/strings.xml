@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="target_device_is_under_ios_lite_supervision_only_selective_apps_can_be_controlled">Target device is under iOS Lite supervision. Only selective apps can be controlled.</string>
+</resources>

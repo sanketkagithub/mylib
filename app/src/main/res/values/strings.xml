@@ -1,3 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MyLibPro</string>
+
+    <string name="app_name">Nischint For Education</string>
+    <string name="title_activity_pop_up">PopUpActivity</string>
+    <string name="termsandconditions"><u>Terms and Conditions</u>.</string>
+    <string name="forgotpsd"><u>Forgot your PIN?</u></string>
+    <string name="options_parent_login">parentLogin</string>
+    <string name="device_description">Disable the Force Stop button using Device Policy Manager API</string>
+    <string name="device_admin_label">Device Admin</string>
+    <string name="enabled">ENABLE</string>
+    <string name="disabled">DISABLE</string>
+    <string name="set_passcode">Set Your Own Passcode...</string>
+    <string name="Rs">\u20B9</string>
+    <item name="layout1" type="id"/>
+    <item name="text1" type="id"/>
+    <string name="forgot_pin_text">Enter your email below to receive your PIN reset instructions.</string>
+    <!--MQTT Strings-->
+    <string name="messageRecieved">Message Recieved</string>
+    <string name="connectedto">Connected to </string>
+    <string name="disconnected">Disconnected from</string>
+    <string name="no_status">Unknown connection status to</string>
+    <string name="connecting">Connecting to</string>
+    <string name='dateFormat'>dd/MM/yy \'at\' HH:mm:ss</string>
+    <string name="timestamp">&lt;br/&gt; &lt;small&gt; %1$s &lt;/small&gt;</string>
+    <string name="toast_pub_success">Published message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_success">Subscribed to %1$s</string>
+    <string name="toast_disconnected">Disconnected</string>
+    <string name="toast_pub_failed">Failed to publish message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_failed">Failed to subscribe to %1$s</string>
+    <string name="disconnecting">Disconnecting from</string>
+    <string name="connectionError">An error occurred connecting to</string>
+    <string name="disable_school_hours">School Hours</string>
+
+    <string name="accessibility_service_label">Nischint</string>
+    <string name="accessibility_service_description">Please toggle the switch \'ON\' in the top right corner for high level of
+        security and monitoring on the child device. \n\n Note:\nYou may receive a standard warning after this screen. Don\'t
+        worry about it, Nischint will never collect personal information. Contact info@nischint.co for any concerns. Nischint
+        uses Accessibility Service to filter internet on child’s device.
+        This helps all children, including those with pre-diagnosed disabilities from creating or aggravating behavioral disorders disabilities (including but not limited to ADD/ADHD, obsessive compulsive disorder, internet gaming disorder, autism, learning disabilities, developmental disabilities, depression and anxiety).</string>
+    <string name="install_message">Please install <b>\"Nischint Safe Browser\"</b></string>
+    <string
+        name="install_text">Click <b>\"Install\"</b> button on the next screen.</string>
+    <string
+        name="accessibility_enable_restart_messgae">* If this screen is displayed even after enabling
+        the Nischint Accessibility Setting, <b>Please Restart Your Device</b> *</string>
+    <string
+        name="device_admin_activate_text"><b>Device Admin Deactivated!!</b></string>
+    <string
+        name="device_admin_enable_text">Click <b>\"ACTIVATE\"</b> on the next screen to continue using the device.</string>
+    <string
+        name="device_admin_uninstall_text">To uninstall open Nischint for Education. \nGo to <b>\"Settings\"</b> and click
+        <b>\"Uninstall Nischint\"</b>.</string>
+    <string
+        name="app_usage_activate_text"><b>App Usage Access Deactivated!!</b></string>
+    <string
+        name="app_usage_enable_text">Click <b>\"Nischint\"</b> on the next screen and slide the button to the right
+        to continue using the device.</string>
+    <string
+        name="app_permissions_activate_text"><b>App Permissions Deactivated!!</b></string>
+    <string
+        name="app_permissions_enable_text1">Please grant </string>
+    <string
+        name="app_permissions_enable_text2">permission/s to continue using the device.</string>
+    <string name="enable_now">Enable Now</string>
+    <string name="install_now">Install Now</string>
+    <string name="time_change_detected">Time Change Detected</string>
+    <string name="time_change_restore_enable_text">Please switch on WIFI / DATA and click <b>\"VERIFY\"</b> to continue
+        using the device.</string>
+    <string name="verify">VERIFY</string>
+    <string name="device_admin_disable_alert">Disabling Admin settings may not be allowed.
+        Notification will be sent to Administrators.</string>
+    <string name="lock_screen_message1"><b>Admin Settings Disabled</b></string>
+    <string name="lock_screen_message2">Settings locked till </string>
+    <string name="block_message_part2">has blocked the application</string>
+    <string name="block_message_parent">application has been blocked.</string>
+    <string name="no_internet">No Internet Connection. Your device is currently not connected to the internet, please try again
+        .</string>
+    <string name="problem_message">A problem has occurred. Please try again later.</string>
+    <string name="no_email_config">No email configuration set by the admin</string>
+    <string name="settings_users_access_prohibited">Users Access Prohibited</string>
+    <string name="settings_users_creation_prohibited">Switching / Creation of new Users prohibited by Administrator.</string>
+    <string name="device_admin_settings_access_prohibited">Device Admin Access Prohibited</string>
+    <string name="nischint_uninstall_prohibited">Nischint For Education Uninstall Prohibited</string>
+
+    <string name="safe_mode_access_prohibited">Safe Mode Access Prohibited</string>
+    <string name="safe_mode_switch_prohibited">Switching to Safe Mode prohibited by Administrator.</string>
+
+    <string name="usb_debugging_access_prohibited">USB Debugging Access Prohibited</string>
+    <string name="usb_debugging_prohibited">USB Debugging Mode prohibited by Administrator.</string>
+
+    <string name="factory_reset_access_prohibited">Factory Reset Access Prohibited</string>
+    <string name="factory_reset_prohibited">Factory Data Reset prohibited by Administrator.</string>
+
+    <string name="time_change_access_prohibited">Time Change Access Prohibited</string>
+    <string name="time_change_prohibited">Time Change prohibited by Administrator.</string>
+
+    <string name="browser_is_blocked">browser is blocked</string>
+    <string name="browser_is_blocked_message">Please use Nischint Safe Browser</string>
+
+    <string name="no_data_available_for_current_month">No data available for current month.</string>
+    <string name="no_data_available_icon">no data available icon</string>
+    <string name="feature_not_available_msg">This feature is not available in your child device.</string>
+    <string name="we_are_still_uploading_data_from_your_child_device">We are still uploading data from your child device...</string>
+    <string name="fabicon">fabIcon</string>
+
+    <string name="enable_app_usage_logs">Enable Application Usage</string>
+    <string name="enable_bh_logs">Enable Browsing History</string>
+    <string name="enable_gps_logs">Enable GPS Logs</string>
+    <string name="enable_alert_logs">Enable Alert Logs</string>
+    <string name="this_featue_allows">This feature allows you to define emergency contacts for your child\'s safety. A shout out key is available on your child device for easy and quick access. We\'ll send an instant application message, email and SMS (charged to the child mobile account)</string>
+
+    <string name="text_home">Home</string>
+    <string name="text_AppBlock">Block Apps</string>
+    <string name="text_GeoSafe">Geo Safe</string>
+    <string name="text_more">More</string>
+    <string name="TempText">Temporary Text</string>
+    <string name="schedules">Schedules</string>
+    <string name="schedule">Schedule</string>
+    <string name="repeated_on">Repeat on</string>
+    <string name="create_schedule_to_block_device_for_a_given_time">Create schedule to block device for a given time</string>
+    <string name="create_schedule_to_block_app_for_a_given_time">Create schedule to block app for a given time</string>
+    <string name="name_this_schedule">Name this schedule…</string>
+    <string name="end_time">End Time</string>
+    <string name="start_time">Start Time</string>
+    <string name="tap_on_days_to_choose">Tap on days to choose</string>
+    <string name="repeat_on">Repeat On</string>
+    <string name="recurring_weekly">Recurring Weekly</string>
+    <string name="block_apps_for">Block Apps For</string>
+    <string name="until_i_say_so">Until I say so</string>
+    <string name="five_minutes">5 minutes</string>
+    <string name="ten_minutes">10 minutes</string>
+    <string name="thirty_minutes">30 minutes</string>
+    <string name="one_hour">1 hour</string>
+    <string name="two_hours">2 hours</string>
+    <string name="select_section">Select Section</string>
+    <string name="select_grade">Select Grade</string>
+    <string name="enter_student_name">Enter Student\'s Name</string>
+    <string name="enter_student_registration_number">Enter Student\'s Registration Number</string>
+    <string name="enter_parent_email_id">Enter Parent Email</string>
+    <string name="cancel_cap">CANCEL</string>
+    <string name="activate_cap">ACTIVATE</string>
+    <string name="personal_device">Personal Device</string>
+    <string name="studentinfo_content">We need few of your details to get you started with Nischint.</string>
+    <string name="welcomeMessage">Nischint is an advanced Parental Guidance and control application which ensures safety of
+        children in digital world.</string>
+    <string name="websiteMessage">More than 4 Million Websites blocked classified by categories. You can even create your own
+        custom list of blocked websites.</string>
+    <string name="geosafeMessage">Real time location of the child with option to set up geographical safe zone and receive real
+        time alerts on entry and exit.</string>
+    <string name="welcomeHead">Welcome to Nischint!</string>
+    <string name="school_device">School Device</string>
+    <string name="text_website_filter">Website Filter</string>
+    <string name="alerts">Alerts</string>
+    <string name="current_location">Current Location</string>
+    <string name="most_used_apps">Most Used Apps</string>
+    <string name="most_visited_sites">Most Visited Sites</string>
+    <string name="quick_view">QUICK VIEW</string>
+    <string name="please_turn_on_gps_settings_on_your_child_device">Please turn on GPS settings on your child device</string>
+    <string name="geo_safe_zone_turned_off">Geo safe zone turned off!</string>
+    <string name="to_enable_this_please_click_the_toggle_n_button_at_top_right_corner">To enable this, please click the toggle
+        button at top right corner.</string>
+    <string name="off_indicator">off indicator</string>
+    <string name="set_up_to_3_safe_zones_for_your_child_device">Set up to 3 safe zones for your child device.</string>
+    <string name="set_radius">Set Radius</string>
+    <string name="safe_zone_name">Safe Zone Name</string>
+    <string name="search_location">Search Location</string>
+    <string name="type_to_search_for_your_desired_location">Type to search for your desired location</string>
+    <string name="allow">ALLOW</string>
+    <string name="block">BLOCK</string>
+    <string name="status">Status</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string name="no_applications_available">No matching App found.</string>
+    <!--<string name="app_is_blocked_forever">App is blocked forever. Please click on \'+\' button to create a schedule.</string>-->
+    <string name="app_is_blocked_forever">Please click on \'+\' button to create a schedule.</string>
+    <string name="no_schedule_message">Please click on \'+\' button to create a schedule.</string>
+    <string name="student_information">Student Information</string>
+    <string name="child_shout_out_settings">Child Shout Out Settings</string>
+    <string name="no_alert_message">Nothing to be worried about</string>
+    <string name="no_data_available">No data available</string>
+    <string name="my_family">My Family</string>
+    <string name="the_device_is_free_to_use">The device is free to use.</string>
+    <string name="app_wise_settings_overriden">**App Wise Settings Overridden</string>
+    <string name="settings">Settings</string>
+    <string name="com_center">Communication Center</string>
+    <string name="on">ON</string>
+    <string name="email_notifications">Email Notifications</string>
+    <string name="app_push_notifications">App Push Notifications</string>
+    <string name="alert_settings">Alert Settings</string>
+    <string name="daily_email_digest">Daily Email Digest</string>
+    <string name="snapshot_of_the_day_s_activity">Snapshot of the day\'s activity</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="no_data_available_camelcase">No Data Available</string>
+    <string name="show">Show</string>
+    <string name="add_email">Add Email</string>
+    <string name="its_empty">It\'s empty!</string>
+    <string name="update_nischint_for_education_app">Update Nischint For Education App</string>
+    <string name="install_caution_message">Please do not click Home/Back button during installation. We will redirect to the next screen once the installation is completed.</string>
+    <string name="accessibility_message">Please enable <b>\"Nischint Advanced Settings\"</b></string>
+    <string
+        name="accessibility_enable_text">Click <b>\"Nischint\"</b> on the next screen and slide the button to the right</string>
+    <string name="change_date_time"><![CDATA[Change Date & Time]]></string>
+
+
+    <string name="noti_channel_default">Primary Channel</string>
+    <string name="channel_name">mychannel</string>
+    <string name="noti_channel_second">Secondary Channel</string>
+    <string name="ms_exchange">MS Exchange</string>
+    <string name="pop3">POP3</string>
+    <string name="domain">Domain</string>
+    <string name="server_address">Server Address</string>
+    <string name="password">Password</string>
+    <string name="incoming_server_address">Incoming Server Address</string>
+    <string name="incoming_server_port">Incoming Server Port</string>
+    <string name="outgoing_server_port">Outgoing Server Port</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="outgoing_server_address">Outgoing Server Address</string>
+    <string name="add">Add</string>
+    <string name="target_device_is_under_ios_lite_supervision_only_selective_apps_can_be_controlled">Target device is under iOS Lite supervision. Only selective apps can be controlled.</string>
+
 </resources>
