@@ -1,0 +1,194 @@
+[33mcommit f3153243a5d9309a424b6504d351b1b5ccfead13[m
+Author: sachin <sachin>
+Date:   Thu Jan 11 11:39:07 2018 +0530
+
+    Crash fix. Adding synchronised block to avoid concurrentModification error.
+
+ .../service/CheckRunningApplicationService.java       | 19 [32m+++++++++++++[m[31m------[m
+ 1 file changed, 13 insertions(+), 6 deletions(-)
+
+[33mcommit fa1d25585929da89d79cd0c416434bd234ddd506[m
+Author: sachin <sachin>
+Date:   Tue Jan 9 18:17:06 2018 +0530
+
+    adding check to stop reporting of duplicate app usage data to server.
+
+ .../service/CheckRunningApplicationService.java    | 119 [32m++++[m[31m-----------------[m
+ 1 file changed, 22 insertions(+), 97 deletions(-)
+
+[33mcommit 60c05f58811d80073aff14742958fae45ff8ee65[m
+Author: sachin <sachin>
+Date:   Tue Jan 9 14:21:26 2018 +0530
+
+    #BugFix: App usage reporting corrected. Reporting any offline app usage stored as well. If no network storing the details to DB.
+
+ .../n4e/target/Database/NischintDB.java            | 11 [32m+++[m[31m-[m
+ .../service/CheckRunningApplicationService.java    | 71 [32m++++++++++++++++++++[m[31m--[m
+ 2 files changed, 75 insertions(+), 7 deletions(-)
+
+[33mcommit b21a0bbb1495a15948ade28e75f32b9b5c3fa69e[m
+Author: sachin <sachin>
+Date:   Tue Jan 9 13:34:02 2018 +0530
+
+    #BugFix: App usage reporting corrected. Keeping track of last opened app and changing it when the current app is different than last opened app.
+
+ .../service/CheckRunningApplicationService.java    | 475 [32m++++++++++[m[31m-----------[m
+ 1 file changed, 220 insertions(+), 255 deletions(-)
+
+[33mcommit 0da2a721a3702d6f9307f7c72edc5d9449d49e0e[m
+Author: Sanket <sanket.kpatankar@cytrion.com>
+Date:   Mon Jan 8 18:12:18 2018 +0530
+
+    App Usage Issue Resolved
+
+ .../n4e/host/MainActivity.java                     |   8 [32m+[m[31m-[m
+ .../n4e/host/util/SessionManager.java              |   1 [32m+[m
+ .../n4e/mqtt/MqttCallbackHandler.java              |   2 [32m+[m[31m-[m
+ .../service/CheckRunningApplicationService.java    | 331 [32m++++++++++++++[m[31m-------[m
+ .../com/nischinttechnologies/n4e/util/Utils.java   |  22 [32m+[m[31m-[m
+ 5 files changed, 236 insertions(+), 128 deletions(-)
+
+[33mcommit 95a9cfa85c788d84a5662e1d6974b5f9368b85d6[m
+Author: Sanket <sanket.kpatankar@cytrion.com>
+Date:   Fri Jan 5 16:23:46 2018 +0530
+
+    gps issue fixed partially
+
+ .../n4e/host/fragments/MyFamily/ChildFragment.java |   1 [32m+[m
+ .../n4e/target/service/GPSTrackerService.java      | 205 [32m+++++++++++[m[31m----------[m
+ .../service/GeofenceTransitionsIntentService.java  |  10 [32m+[m[31m-[m
+ 3 files changed, 116 insertions(+), 100 deletions(-)
+
+[33mcommit e45d67a399b8be3015fc036dcd4ac3e8e1c41306[m
+Author: Sanket <sanket.kpatankar@cytrion.com>
+Date:   Fri Jan 5 12:57:57 2018 +0530
+
+    appsceduled list issue fixes 05jan2018
+
+ .../n4e/host/AppSchedulesActivity.java             |   2 [32m+[m[31m-[m
+ .../n4e/host/activities/AppScheduleList.java       |  10 [32m+[m[31m-[m
+ .../n4e/host/activities/MainActivity_neux.java     | 215 [32m+++++++[m[31m--------------[m
+ .../fragments/AppManagement/AppWiseFragment.java   | 127 [32m++++[m[31m--------[m
+ .../fragments/Dashboard/MoreFragment_neux.java     |   7 [32m+[m
+ .../n4e/host/util/SessionManager.java              |  12 [32m++[m
+ 6 files changed, 130 insertions(+), 243 deletions(-)
+
+[33mcommit c91d1ee2a9ad17ca045a446f412ff44aa4e20db8[m
+Author: sachin <sachin>
+Date:   Fri Jan 5 11:35:00 2018 +0530
+
+    Revert: Adding install NSB as part of activation process.
+
+ .../res/drawable-hdpi/enable_accessibility_settings.png | Bin [31m0[m -> [32m31134[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit b15a3a27519c784b6833a11ff44b43356ac34a63[m
+Author: sachin <sachin>
+Date:   Mon Dec 18 17:55:52 2017 +0530
+
+    Crash Fix
+
+ .../nischinttechnologies/n4e/target/Database/NischintDB.java | 12 [32m++++++++++++[m
+ 1 file changed, 12 insertions(+)
+
+[33mcommit 723308483dca1d42310ea4753ff551718a181c67[m
+Author: sachin <sachin>
+Date:   Mon Dec 18 12:55:44 2017 +0530
+
+    On enable disable Website filter if the feature has been disabled by IT Admin then UI was facing issues.fixed.
+
+ .../websiteFilter/CategoriesListFragment.java      | 38 [32m+++++++++++++[m[31m---------[m
+ 1 file changed, 22 insertions(+), 16 deletions(-)
+
+[33mcommit a19a90a843f9e983358293560943d092725358d3[m
+Author: sachin <sachin>
+Date:   Fri Dec 15 19:32:36 2017 +0530
+
+    Crash Fix
+
+ .../nischinttechnologies/n4e/host/activities/MainReportsActivity.java | 4 [32m++[m[31m--[m
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+[33mcommit 869114629b8f3b8ad0d29d1af39fe64037fd5374[m
+Author: sachin <sachin>
+Date:   Fri Dec 15 18:16:30 2017 +0530
+
+    Crash Fix
+
+ .../n4e/host/fragments/websiteFilter/CategoriesListFragment.java        | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 2aef8f65464c34fc01dd5d1f4bc0ea6eec1a5f36[m
+Author: sachin <sachin>
+Date:   Fri Dec 15 17:52:00 2017 +0530
+
+    On disable of website filter allowed/blocked website fragments should be disabled as well.
+
+ .../websiteFilter/AllowBlockListFragment.java      |  89 [32m+++++++++++++[m[31m----[m
+ .../websiteFilter/BlockedListFragment.java         |  49 [32m++++++++[m[31m-[m
+ .../websiteFilter/CategoriesListFragment.java      |  77 [32m++++++++[m[31m------[m
+ .../n4e/target/WebsiteFilterStatusChangeEvent.java |   8 [32m++[m
+ .../n4e/util/SharedPreferenceUtil.java             |   9 [32m++[m
+ .../main/res/layout/fragment_allow_block_list.xml  | 111 [32m++++++++++++[m[31m---------[m
+ 6 files changed, 242 insertions(+), 101 deletions(-)
+
+[33mcommit 8d45c6f489670e2471bc2e03de3f87e599ad302b[m
+Author: sachin <sachin>
+Date:   Mon Dec 11 18:21:51 2017 +0530
+
+    API response alert added if website filter is not enabled.
+
+ .../websiteFilter/CategoriesListFragment.java      | 32 [32m+++++++++++++++[m[31m-------[m
+ 1 file changed, 22 insertions(+), 10 deletions(-)
+
+[33mcommit 97ad60fbbf33202533a3ac14fb47681f119d5983[m
+Author: sachin <sachin>
+Date:   Mon Dec 11 16:25:53 2017 +0530
+
+    Reverting all NSB changes and reinstating Nischint Accessibility related features.
+
+ nischint/src/main/AndroidManifest.xml              |  30 [32m+++[m[31m-[m
+ .../n4e/target/DeviceAdminActivity.java            |  18 [32m+[m[31m-[m
+ .../EnableAccessibilitySettingsActivity.java       | 108 [32m++++++++++++[m
+ ...bleAccessibilitySettingsPersistentActivity.java | 190 [32m+++++++++++++++++++++[m
+ .../n4e/target/StudentInfoActivity.java            |  17 [32m+[m[31m-[m
+ .../service/CheckRunningApplicationService.java    |  80 [32m+++++++[m[31m--[m
+ .../n4e/target/utils/TargetUtils.java              |  28 [32m+++[m
+ .../res/layout/activity_enable_accessibility.xml   |  88 [32m++++++++++[m
+ nischint/src/main/res/values/strings.xml           |   8 [32m+[m[31m-[m
+ 9 files changed, 524 insertions(+), 43 deletions(-)
+
+[33mcommit b17c5a71d623bef82bfeba4354d7835e53036c05[m
+Author: sachin <sachin>
+Date:   Mon Dec 11 11:29:57 2017 +0530
+
+    Crash fix.
+
+ .../java/com/nischinttechnologies/n4e/target/SettingsFragment.java  | 6 [32m+++++[m[31m-[m
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+[33mcommit c51c669d82e56ca1c8161e6e0fe33522c3f384c1[m
+Author: sachin <sachin>
+Date:   Fri Dec 8 13:11:39 2017 +0530
+
+    UI changes.
+
+ nischint/src/main/res/layout/activity_install_safe_browser.xml | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit e62e868494d21981c959f3f596c52c7d1e725cb3[m
+Author: sachin <sachin>
+Date:   Thu Dec 7 18:32:34 2017 +0530
+
+    Crash fix.
+    UI changes.
+
+ .../n4e/host/fragments/MyFamilyFragment.java       |  2 [32m+[m[31m-[m
+ .../n4e/mqtt/MqttAndroidClient.java                |  4 [32m+[m[31m-[m
+ .../target/InstallNischintSafeBrowserActivity.java | 48 [32m+++++++++++++++[m[31m-[m
+ .../res/layout/activity_install_safe_browser.xml   | 65 [32m++++++++++[m[31m------------[m
+ 4 files changed, 80 insertions(+), 39 deletions(-)
+
+[33mcommit 7610459477f7680c671a9e1444441b5274638bd4[m
+Author: sachin <sachin>
+Date:   Wed Dec 6 12:00:0
